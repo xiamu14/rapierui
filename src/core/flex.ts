@@ -10,7 +10,7 @@ type Direction = keyof typeof Direction;
 export function flexSpaceBetween(direction?: Direction): CSSProperties {
   return {
     display: "flex",
-    flexDirection: direction ?? "column",
+    flexDirection: direction ?? "row",
     justifyContent: "space-between",
     alignItems: "center",
   };
@@ -30,5 +30,18 @@ export function flexColumnCenter(): CSSProperties {
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
+  };
+}
+
+export function HStack(): CSSProperties {
+  return {
+    display: "flex",
+  };
+}
+
+export function VStack(): CSSProperties {
+  return {
+    display: "flex",
+    flexDirection: "column",
   };
 }

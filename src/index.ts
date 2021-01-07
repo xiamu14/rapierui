@@ -10,6 +10,10 @@ export { default as margin } from "./core/margin";
 
 export { default as padding } from "./core/padding";
 
+export { HStack } from "./core/flex";
+
+export { VStack } from "./core/flex";
+
 export { flexSpaceBetween } from "./core/flex";
 
 export { flexCenter } from "./core/flex";

@@ -5,7 +5,7 @@ const Direction = {
 export function flexSpaceBetween(direction) {
     return {
         display: "flex",
-        flexDirection: direction !== null && direction !== void 0 ? direction : "column",
+        flexDirection: direction !== null && direction !== void 0 ? direction : "row",
         justifyContent: "space-between",
         alignItems: "center",
     };
@@ -23,5 +23,16 @@ export function flexColumnCenter() {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
+    };
+}
+export function HStack() {
+    return {
+        display: "flex",
+    };
+}
+export function VStack() {
+    return {
+        display: "flex",
+        flexDirection: "column",
     };
 }
