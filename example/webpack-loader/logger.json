@@ -1,0 +1,644 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 399,
+  "loc": {
+    "start": { "line": 1, "column": 0 },
+    "end": { "line": 17, "column": 40 }
+  },
+  "errors": [],
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 399,
+    "loc": {
+      "start": { "line": 1, "column": 0 },
+      "end": { "line": 17, "column": 40 }
+    },
+    "sourceType": "module",
+    "interpreter": null,
+    "body": [
+      {
+        "type": "ImportDeclaration",
+        "start": 0,
+        "end": 36,
+        "loc": {
+          "start": { "line": 1, "column": 0 },
+          "end": { "line": 1, "column": 36 }
+        },
+        "specifiers": [
+          {
+            "type": "ImportSpecifier",
+            "start": 9,
+            "end": 12,
+            "loc": {
+              "start": { "line": 1, "column": 9 },
+              "end": { "line": 1, "column": 12 }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 9,
+              "end": 12,
+              "loc": {
+                "start": { "line": 1, "column": 9 },
+                "end": { "line": 1, "column": 12 },
+                "identifierName": "css"
+              },
+              "name": "css"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 9,
+              "end": 12,
+              "loc": {
+                "start": { "line": 1, "column": 9 },
+                "end": { "line": 1, "column": 12 },
+                "identifierName": "css"
+              },
+              "name": "css"
+            }
+          }
+        ],
+        "source": {
+          "type": "StringLiteral",
+          "start": 20,
+          "end": 35,
+          "loc": {
+            "start": { "line": 1, "column": 20 },
+            "end": { "line": 1, "column": 35 }
+          },
+          "extra": { "rawValue": "@linaria/core", "raw": "'@linaria/core'" },
+          "value": "@linaria/core"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 37,
+        "end": 84,
+        "loc": {
+          "start": { "line": 2, "column": 0 },
+          "end": { "line": 2, "column": 47 }
+        },
+        "specifiers": [
+          {
+            "type": "ImportSpecifier",
+            "start": 46,
+            "end": 58,
+            "loc": {
+              "start": { "line": 2, "column": 9 },
+              "end": { "line": 2, "column": 21 }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 46,
+              "end": 58,
+              "loc": {
+                "start": { "line": 2, "column": 9 },
+                "end": { "line": 2, "column": 21 },
+                "identifierName": "modularScale"
+              },
+              "name": "modularScale"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 46,
+              "end": 58,
+              "loc": {
+                "start": { "line": 2, "column": 9 },
+                "end": { "line": 2, "column": 21 },
+                "identifierName": "modularScale"
+              },
+              "name": "modularScale"
+            }
+          },
+          {
+            "type": "ImportSpecifier",
+            "start": 60,
+            "end": 65,
+            "loc": {
+              "start": { "line": 2, "column": 23 },
+              "end": { "line": 2, "column": 28 }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 60,
+              "end": 65,
+              "loc": {
+                "start": { "line": 2, "column": 23 },
+                "end": { "line": 2, "column": 28 },
+                "identifierName": "hiDPI"
+              },
+              "name": "hiDPI"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 60,
+              "end": 65,
+              "loc": {
+                "start": { "line": 2, "column": 23 },
+                "end": { "line": 2, "column": 28 },
+                "identifierName": "hiDPI"
+              },
+              "name": "hiDPI"
+            }
+          }
+        ],
+        "source": {
+          "type": "StringLiteral",
+          "start": 73,
+          "end": 83,
+          "loc": {
+            "start": { "line": 2, "column": 36 },
+            "end": { "line": 2, "column": 46 }
+          },
+          "extra": { "rawValue": "polished", "raw": "'polished'" },
+          "value": "polished"
+        }
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 85,
+        "end": 113,
+        "loc": {
+          "start": { "line": 3, "column": 0 },
+          "end": { "line": 3, "column": 28 }
+        },
+        "trailingComments": [
+          {
+            "type": "CommentLine",
+            "value": " Write your styles in `css` tag",
+            "start": 115,
+            "end": 148,
+            "loc": {
+              "start": { "line": 5, "column": 0 },
+              "end": { "line": 5, "column": 33 }
+            }
+          }
+        ],
+        "specifiers": [
+          {
+            "type": "ImportDefaultSpecifier",
+            "start": 92,
+            "end": 97,
+            "loc": {
+              "start": { "line": 3, "column": 7 },
+              "end": { "line": 3, "column": 12 }
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 92,
+              "end": 97,
+              "loc": {
+                "start": { "line": 3, "column": 7 },
+                "end": { "line": 3, "column": 12 },
+                "identifierName": "fonts"
+              },
+              "name": "fonts"
+            }
+          }
+        ],
+        "source": {
+          "type": "StringLiteral",
+          "start": 103,
+          "end": 112,
+          "loc": {
+            "start": { "line": 3, "column": 18 },
+            "end": { "line": 3, "column": 27 }
+          },
+          "extra": { "rawValue": "./fonts", "raw": "'./fonts'" },
+          "value": "./fonts"
+        }
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 149,
+        "end": 326,
+        "loc": {
+          "start": { "line": 6, "column": 0 },
+          "end": { "line": 14, "column": 2 }
+        },
+        "leadingComments": [
+          {
+            "type": "CommentLine",
+            "value": " Write your styles in `css` tag",
+            "start": 115,
+            "end": 148,
+            "loc": {
+              "start": { "line": 5, "column": 0 },
+              "end": { "line": 5, "column": 33 }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "CommentLine",
+            "value": " Then use it as a class name",
+            "start": 328,
+            "end": 358,
+            "loc": {
+              "start": { "line": 16, "column": 0 },
+              "end": { "line": 16, "column": 30 }
+            }
+          }
+        ],
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 155,
+            "end": 325,
+            "loc": {
+              "start": { "line": 6, "column": 6 },
+              "end": { "line": 14, "column": 1 }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 155,
+              "end": 161,
+              "loc": {
+                "start": { "line": 6, "column": 6 },
+                "end": { "line": 6, "column": 12 },
+                "identifierName": "header"
+              },
+              "name": "header"
+            },
+            "init": {
+              "type": "TaggedTemplateExpression",
+              "start": 164,
+              "end": 325,
+              "loc": {
+                "start": { "line": 6, "column": 15 },
+                "end": { "line": 14, "column": 1 }
+              },
+              "tag": {
+                "type": "Identifier",
+                "start": 164,
+                "end": 167,
+                "loc": {
+                  "start": { "line": 6, "column": 15 },
+                  "end": { "line": 6, "column": 18 },
+                  "identifierName": "css"
+                },
+                "name": "css"
+              },
+              "quasi": {
+                "type": "TemplateLiteral",
+                "start": 167,
+                "end": 325,
+                "loc": {
+                  "start": { "line": 6, "column": 18 },
+                  "end": { "line": 14, "column": 1 }
+                },
+                "expressions": [
+                  {
+                    "type": "MemberExpression",
+                    "start": 215,
+                    "end": 228,
+                    "loc": {
+                      "start": { "line": 8, "column": 17 },
+                      "end": { "line": 8, "column": 30 }
+                    },
+                    "object": {
+                      "type": "Identifier",
+                      "start": 215,
+                      "end": 220,
+                      "loc": {
+                        "start": { "line": 8, "column": 17 },
+                        "end": { "line": 8, "column": 22 },
+                        "identifierName": "fonts"
+                      },
+                      "name": "fonts"
+                    },
+                    "computed": false,
+                    "property": {
+                      "type": "Identifier",
+                      "start": 221,
+                      "end": 228,
+                      "loc": {
+                        "start": { "line": 8, "column": 23 },
+                        "end": { "line": 8, "column": 30 },
+                        "identifierName": "heading"
+                      },
+                      "name": "heading"
+                    }
+                  },
+                  {
+                    "type": "CallExpression",
+                    "start": 246,
+                    "end": 261,
+                    "loc": {
+                      "start": { "line": 9, "column": 15 },
+                      "end": { "line": 9, "column": 30 }
+                    },
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 246,
+                      "end": 258,
+                      "loc": {
+                        "start": { "line": 9, "column": 15 },
+                        "end": { "line": 9, "column": 27 },
+                        "identifierName": "modularScale"
+                      },
+                      "name": "modularScale"
+                    },
+                    "arguments": [
+                      {
+                        "type": "NumericLiteral",
+                        "start": 259,
+                        "end": 260,
+                        "loc": {
+                          "start": { "line": 9, "column": 28 },
+                          "end": { "line": 9, "column": 29 }
+                        },
+                        "extra": { "rawValue": 2, "raw": "2" },
+                        "value": 2
+                      }
+                    ]
+                  },
+                  {
+                    "type": "CallExpression",
+                    "start": 269,
+                    "end": 279,
+                    "loc": {
+                      "start": { "line": 11, "column": 4 },
+                      "end": { "line": 11, "column": 14 }
+                    },
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 269,
+                      "end": 274,
+                      "loc": {
+                        "start": { "line": 11, "column": 4 },
+                        "end": { "line": 11, "column": 9 },
+                        "identifierName": "hiDPI"
+                      },
+                      "name": "hiDPI"
+                    },
+                    "arguments": [
+                      {
+                        "type": "NumericLiteral",
+                        "start": 275,
+                        "end": 278,
+                        "loc": {
+                          "start": { "line": 11, "column": 10 },
+                          "end": { "line": 11, "column": 13 }
+                        },
+                        "extra": { "rawValue": 1.5, "raw": "1.5" },
+                        "value": 1.5
+                      }
+                    ]
+                  },
+                  {
+                    "type": "CallExpression",
+                    "start": 300,
+                    "end": 317,
+                    "loc": {
+                      "start": { "line": 12, "column": 17 },
+                      "end": { "line": 12, "column": 34 }
+                    },
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 300,
+                      "end": 312,
+                      "loc": {
+                        "start": { "line": 12, "column": 17 },
+                        "end": { "line": 12, "column": 29 },
+                        "identifierName": "modularScale"
+                      },
+                      "name": "modularScale"
+                    },
+                    "arguments": [
+                      {
+                        "type": "NumericLiteral",
+                        "start": 313,
+                        "end": 316,
+                        "loc": {
+                          "start": { "line": 12, "column": 30 },
+                          "end": { "line": 12, "column": 33 }
+                        },
+                        "extra": { "rawValue": 2.5, "raw": "2.5" },
+                        "value": 2.5
+                      }
+                    ]
+                  }
+                ],
+                "quasis": [
+                  {
+                    "type": "TemplateElement",
+                    "start": 168,
+                    "end": 213,
+                    "loc": {
+                      "start": { "line": 6, "column": 19 },
+                      "end": { "line": 8, "column": 15 }
+                    },
+                    "value": {
+                      "raw": "\n  text-transform: uppercase;\n  font-family: ",
+                      "cooked": "\n  text-transform: uppercase;\n  font-family: "
+                    },
+                    "tail": false
+                  },
+                  {
+                    "type": "TemplateElement",
+                    "start": 229,
+                    "end": 244,
+                    "loc": {
+                      "start": { "line": 8, "column": 31 },
+                      "end": { "line": 9, "column": 13 }
+                    },
+                    "value": {
+                      "raw": ";\n  font-size: ",
+                      "cooked": ";\n  font-size: "
+                    },
+                    "tail": false
+                  },
+                  {
+                    "type": "TemplateElement",
+                    "start": 262,
+                    "end": 267,
+                    "loc": {
+                      "start": { "line": 9, "column": 31 },
+                      "end": { "line": 11, "column": 2 }
+                    },
+                    "value": { "raw": ";\n\n  ", "cooked": ";\n\n  " },
+                    "tail": false
+                  },
+                  {
+                    "type": "TemplateElement",
+                    "start": 280,
+                    "end": 298,
+                    "loc": {
+                      "start": { "line": 11, "column": 15 },
+                      "end": { "line": 12, "column": 15 }
+                    },
+                    "value": {
+                      "raw": " {\n    font-size: ",
+                      "cooked": " {\n    font-size: "
+                    },
+                    "tail": false
+                  },
+                  {
+                    "type": "TemplateElement",
+                    "start": 318,
+                    "end": 324,
+                    "loc": {
+                      "start": { "line": 12, "column": 35 },
+                      "end": { "line": 14, "column": 0 }
+                    },
+                    "value": { "raw": ";\n  }\n", "cooked": ";\n  }\n" },
+                    "tail": true
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "kind": "const"
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 359,
+        "end": 399,
+        "loc": {
+          "start": { "line": 17, "column": 0 },
+          "end": { "line": 17, "column": 40 }
+        },
+        "leadingComments": [
+          {
+            "type": "CommentLine",
+            "value": " Then use it as a class name",
+            "start": 328,
+            "end": 358,
+            "loc": {
+              "start": { "line": 16, "column": 0 },
+              "end": { "line": 16, "column": 30 }
+            }
+          }
+        ],
+        "expression": {
+          "type": "JSXElement",
+          "start": 359,
+          "end": 398,
+          "loc": {
+            "start": { "line": 17, "column": 0 },
+            "end": { "line": 17, "column": 39 }
+          },
+          "openingElement": {
+            "type": "JSXOpeningElement",
+            "start": 359,
+            "end": 382,
+            "loc": {
+              "start": { "line": 17, "column": 0 },
+              "end": { "line": 17, "column": 23 }
+            },
+            "name": {
+              "type": "JSXIdentifier",
+              "start": 360,
+              "end": 362,
+              "loc": {
+                "start": { "line": 17, "column": 1 },
+                "end": { "line": 17, "column": 3 }
+              },
+              "name": "h1"
+            },
+            "attributes": [
+              {
+                "type": "JSXAttribute",
+                "start": 363,
+                "end": 381,
+                "loc": {
+                  "start": { "line": 17, "column": 4 },
+                  "end": { "line": 17, "column": 22 }
+                },
+                "name": {
+                  "type": "JSXIdentifier",
+                  "start": 363,
+                  "end": 372,
+                  "loc": {
+                    "start": { "line": 17, "column": 4 },
+                    "end": { "line": 17, "column": 13 }
+                  },
+                  "name": "className"
+                },
+                "value": {
+                  "type": "JSXExpressionContainer",
+                  "start": 373,
+                  "end": 381,
+                  "loc": {
+                    "start": { "line": 17, "column": 14 },
+                    "end": { "line": 17, "column": 22 }
+                  },
+                  "expression": {
+                    "type": "Identifier",
+                    "start": 374,
+                    "end": 380,
+                    "loc": {
+                      "start": { "line": 17, "column": 15 },
+                      "end": { "line": 17, "column": 21 },
+                      "identifierName": "header"
+                    },
+                    "name": "header"
+                  }
+                }
+              }
+            ],
+            "selfClosing": false
+          },
+          "closingElement": {
+            "type": "JSXClosingElement",
+            "start": 393,
+            "end": 398,
+            "loc": {
+              "start": { "line": 17, "column": 34 },
+              "end": { "line": 17, "column": 39 }
+            },
+            "name": {
+              "type": "JSXIdentifier",
+              "start": 395,
+              "end": 397,
+              "loc": {
+                "start": { "line": 17, "column": 36 },
+                "end": { "line": 17, "column": 38 }
+              },
+              "name": "h1"
+            }
+          },
+          "children": [
+            {
+              "type": "JSXText",
+              "start": 382,
+              "end": 393,
+              "loc": {
+                "start": { "line": 17, "column": 23 },
+                "end": { "line": 17, "column": 34 }
+              },
+              "extra": { "rawValue": "Hello world", "raw": "Hello world" },
+              "value": "Hello world"
+            }
+          ]
+        }
+      }
+    ],
+    "directives": []
+  },
+  "comments": [
+    {
+      "type": "CommentLine",
+      "value": " Write your styles in `css` tag",
+      "start": 115,
+      "end": 148,
+      "loc": {
+        "start": { "line": 5, "column": 0 },
+        "end": { "line": 5, "column": 33 }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " Then use it as a class name",
+      "start": 328,
+      "end": 358,
+      "loc": {
+        "start": { "line": 16, "column": 0 },
+        "end": { "line": 16, "column": 30 }
+      }
+    }
+  ]
+}

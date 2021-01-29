@@ -2,5 +2,6 @@
     "cSpell.words": [
         "esnext",
         "redchili"
-    ]
+    ],
+    "deno.enable": false
 }

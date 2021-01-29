@@ -1,4 +1,5 @@
 import { CSSProperties } from "react";
+import position from "./position";
 
 const Direction = {
   row: "row",
@@ -33,15 +34,25 @@ export function flexColumnCenter(): CSSProperties {
   };
 }
 
-export function HStack(): CSSProperties {
+export function hStack(): CSSProperties {
   return {
     display: "flex",
   };
 }
 
-export function VStack(): CSSProperties {
+export function vStack(): CSSProperties {
   return {
     display: "flex",
     flexDirection: "column",
+  };
+}
+
+export function zStack() {
+  return {
+    display: "block",
+    position: "relative",
+    children: {
+      position: "absolute",
+    },
   };
 }
