@@ -1,0 +1,1 @@
+export type GlobalTypes = 'initial' | 'unset' | 'inherit'

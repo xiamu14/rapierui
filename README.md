@@ -195,3 +195,18 @@ export default function TODO() {
 ## 样式设置思维
 
 先布局再修饰最后写动画
+
+# 开发规划
+
+- @rapierui/css
+  - vitejs-plugin: 支持 react/remax(小程序)
+
+UI 库
+- @rapierui/html： UI 渲染
+- @rapierui/event: 高级封装事件处理（比如手势，拖拽，键盘等）
+- @rapierui/reactive: 异步事件流处理（对应 rxjs）
+- @rapierui/anime: 动画逻辑
+- @rapierui/hook： 逻辑复用
+- 
+
+
