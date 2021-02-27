@@ -194,7 +194,7 @@ export default function TODO() {
 
 ## 样式设置思维
 
-先布局再修饰最后写动画
+先布局再内容最后写动画
 
 # 开发规划
 
